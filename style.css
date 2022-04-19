@@ -1,0 +1,49 @@
+:root{
+    --dark:#16191c;
+    --dark-x:#1e2126;
+    --ligth: #ffffff;
+
+
+}
+
+body{
+    font-family: 'Spartan','sans-serif';
+    font-weight: 300;
+    color: var(--ligth);
+}
+
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+.form-control,.btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.logo img{
+    width: 90px;
+}
+h5{
+    color:var(--ligth);
+}
+/* .card3{
+    margin-left: 600px;
+    width: 220px;
+} */
+.img-1{
+    background-image: url("./img/img2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url("./img/img2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-3{
+    background-image: url("./img/img2.jpg");
+    background-size: cover;
+    background-position: center;
+}
